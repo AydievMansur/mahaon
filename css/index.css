@@ -1,0 +1,693 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    user-select: none;
+    -moz-user-select: none;
+    min-width: 1500px;
+}
+
+header {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-image: url("/img/mainBG.png");
+    width: 100%;
+    height: 880px;
+}
+
+input {
+    outline: none;
+}
+
+.logoHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 0 20px 5%;
+    text-align: center;
+}
+
+.phoneHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.phoneHeader a {
+    font-family: Arial, serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.phoneHeader a:last-child {
+    color: white;
+    font-size: 14px;
+}
+
+.phoneHeader a:hover {
+    text-decoration: underline;
+}
+
+/*//////////////////////////////////why i did paste there ?////////////////////////////////////////////*/
+
+.btnsHeader {
+    display: inline-flex;
+    width: 100%;
+    max-width: 1170px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerTop a {
+    font-size: 12px;
+}
+
+.btnsHeader a {
+    color: white;
+    text-decoration: none;
+    margin-right: 4%;
+}
+
+.btnsHeader a:hover {
+    text-decoration: underline;
+}
+
+.headerBot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerBot a {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 5px;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+.headerBot a:active {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.headerBtnCat {
+    font-family: "Open Sans", serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ff548a;
+    border: 1px #ff548a dashed;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 20px;
+    text-align: center;
+    width: 144px;
+    position: relative;
+}
+
+.lowerHeaderBtn a {
+    margin: 0 15px;
+}
+
+.headerBtnCat:hover {
+    border: 1px #ff548a solid;
+    background: #ff548a;
+    color: white;
+    align-items: flex-start;
+}
+
+.headerCircle {
+    display: inline-block;
+    background: #00b0c7;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    width: 20px;
+    vertical-align: super;
+    right: 10%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.headerCircle:hover {
+    color: white;
+    background: #ff548a;
+}
+
+.headerCircleB {
+    display: inline-block;
+    background: #00b0c7;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    width: 20px;
+    vertical-align: super;
+    right: 10%;
+    top: -13px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.headerCircleB:hover {
+    color: white;
+    background: #ff548a;
+    text-decoration: none;
+}
+
+.HeaderAskVet {
+    background: #FF548A;
+    padding: 6px 16px;
+    text-align: center;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.HeaderAskVet:active {
+    background: #00B0C7;
+    text-decoration: none;
+}
+
+.HeaderAskVet:hover {
+    background: #00B0C7;
+    text-decoration: none;
+}
+
+.HeaderCut {
+    display: inline-block;
+    width: 100%;
+}
+
+.headerCut2 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+.headerCut2 a:nth-child(3) {
+    color: #00b0c7;
+}
+
+/*//////////////////////////////////////////////////////END HEADER//////////////////////////////////////*/
+
+
+.row-h {
+    max-width: 1680px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.row-c {
+    max-width: 1370px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*//////////////////////FOOOTERRRR///////////////////////*/
+
+footer {
+    max-width: 1620px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.footerBannerLinks {
+    width: 100%;
+    background-image: url(../img/bannerMy.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 30px 0 30px 140px;
+    margin: 45px;
+}
+
+
+.flT div {
+    display: inline-block;
+    width: 295px;
+    vertical-align: top;
+}
+
+.flT a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #ffffff;
+    line-height: 1.5;
+    display: inline;
+}
+
+.flT {
+    margin-bottom: 30px;
+}
+
+.flT:last-child {
+    margin-bottom: 0;
+}
+
+/*////////////////////////////////////////////*/
+
+.footerLinksBot {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.footerLogo {
+    margin-top: 40px;
+}
+
+.FooterGeneral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 80%;
+    width: 100%;
+}
+
+.FooterGeneral a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+}
+
+.FooterGeneral h4 {
+    margin-bottom: 30px;
+}
+
+.footerPhone {
+    color: #00b0c7;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.blockVert {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLinksTop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterEtc {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    margin-top: 50px;
+}
+
+.FooterEtc .vkButton {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.FooterEtc i {
+    border: 2px dashed #2579bf;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 10px;
+    color: #2579bf;
+    margin-left: 60px;
+}
+
+.subToNews {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.subToNews input {
+    padding: 16px 36px;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    background: #f7f7f7;
+    color: #cacaca;
+    margin-top: 20px;
+    max-width: 370px;
+    width: 100%;
+}
+
+.subToNews button {
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 16px 30px;
+    margin-left: 30px;
+}
+
+.footerEnd {
+    display: flex;
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footerEnd p {
+    color: #9e9e9e;
+    margin-bottom: 10px;
+}
+
+.footerEnd a {
+    color: #9e9e9e;
+    text-decoration: underline;
+}
+
+
+/*/////////////////////////////////////////CATBTN///////////////////////////////////////////////
+ */
+.GeneralMenuCatalog {
+    display: none;
+}
+
+.headerBtnCat:hover .GeneralMenuCatalog {
+    display: flex;
+    position: absolute;
+    z-index: 6;
+    text-align: left;
+    left: -100px;
+    top: -10px;
+    padding: 10px 0;
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------------
+* Generated by Animista on 2019-3-6 15:47:58
+* w: http://animista.net, t: @cssanimista
+* ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-bottom
+ * ----------------------------------------
+ */
+@keyframes GeneralMenuCatalog {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+}
+
+@keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(35px);
+    }
+}
+
+.CatMenu {
+    display: flex;
+    flex-direction: column;
+    background: url("../img/pawOverlay.png") repeat #EDEDED;
+    width: 400px;
+    white-space: normal;
+    box-shadow: 20px 0 20px -15px rgba(0, 0, 0, 0.75);
+}
+
+.headerBtnCat .CatMenu a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 60px;
+    margin: 0;
+    border: none;
+    font-size: 16px;
+}
+
+.headerBtnCat .CatMenu div {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    /*padding: 10px 60px;*/
+    margin: 0;
+    border: none;
+}
+
+.CatMenu:active {
+    color: #2579bf;
+}
+
+.CatMenuShowUp {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    max-width: 900px;
+    width: 100%;
+    padding: 30px 0 0 0;
+    color: black;
+    background: #EDEDED;
+}
+
+.GoodsForCats:hover .CatMenuShowUp {
+    display: flex;
+    z-index: -1;
+    width: 900px;
+    top: 10px;
+}
+
+
+
+.cmsu a {
+    color: black;
+    text-decoration: none;
+}
+
+.cmsu p {
+    font-size: 20px;
+    max-width: 295px;
+    margin: 0 0 30px 50px;
+}
+
+.cmsu {
+    display: flex;
+    flex-direction: column;
+}
+
+.CatMenuShowUp img {
+    z-index: 150;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin: 300px 0 0 0;
+    display: flex;
+    height: 500px;
+}
+
+.headerBtnCat .CatMenuShowUp a:active {
+    color: #2579bf;
+}
+
+.header--Info {
+    position: absolute;
+    display: inline-block;
+    margin: 500px 0 0 80px;
+}
+
+.header--Info p {
+    font-size: 26px;
+}
+
+.header--Info p:first-child {
+    font-size: 72px;
+}
+
+
+.headerBtnCat a {
+    text-decoration: none;
+}
+
+.headerBtnCat a:active {
+    border: none;
+    color: #2579bf;
+}
+
+.GoodsForCats {
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.header--Flex {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.btn--ToCat {
+    display: inline-block;
+    padding: 20px 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.block--stock {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.stock_item2 {
+    text-align: center;
+}
+
+.stick_item2--text {
+    display: inline-flex;
+    margin: 0 auto;
+    height: 350px;
+    width: 460px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #F6F6F6;
+    border-radius: 10px 10px 0 0;
+}
+
+.stick_item2--text>p:nth-child(2) {
+    font-size: 50px;
+    color: white;
+}
+
+.stick_item2--text>p:nth-child(1) {
+    font-size: 30px;
+    color: #FF548A;
+    margin-top: 35px;
+}
+
+.stick_item2--text>p:nth-child(4) {
+    margin-bottom: 20px;
+}
+
+.stock_item2 {
+    width: 460px;
+}
+
+.stick_item2--text>div:nth-child(3)>p:nth-child(2) {
+    font-size: 14px;
+    color: #999999;
+}
+
+.stick_item2--text>div:nth-child(3)>p:nth-child(1) {
+    font-size: 18px;
+    color: black;
+}
+
+.p-of-block_stock {
+    margin: 0 0 10px 0;
+}
+
+.p-of-block_stock p {
+    margin: 10px 0;
+}
+
+a.allStocksLink {
+    text-align: center;
+    display: inline-block;
+    color: #000;
+    width: 100%;
+    text-decoration: none;
+}
+
+.stockBG {
+    position: relative;
+    background-image: url("/img/stockBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 160px;
+}
+
+.tipsFromVets {
+    text-align: center;
+}
+
+.wrap-owl .item-img {
+    width: 300px;
+}
+
+.owl-carousel {
+    margin: 40px 0;
+}
+
+.saleTitle {
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.saleTitle {
+    margin-top: 600px;
+}
+
+a.allStocksLink {
+    margin-top: 40px;
+}
+
+.tabs {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.reviewDecriptionOfItem {
+    width: 100%;
+}
+
+.R {
+     text-align: left;
+}
+.recommendItemlabel {
+     text-align: left;
+}
+
+.recommendItemName {
+ text-align: left;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/

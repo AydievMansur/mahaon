@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="scripts/owl/owl.carousel.min.css">
+    <script src="font/font4.js"></script>
+    <script src="scripts/jquery.js"></script>
+    <link rel="stylesheet" href="scripts/rateit.css">
+    <title>Махаон</title>
+</head>
+<body>
+<header>
+    <div class="row-h">
+        <a href="#x" class="overlay" id="win2"></a>
+        <div class="popup">
+            <p class="h">Возник вопрос к ветеринару?</p>
+            <p class="h">Воспользуйтесь формой обратной связи!</p>
+            <p class="h2">Наш специалист ответит Вам в ближайшее время.</p>
+            <a class="close" title="Закрыть" href="#close"></a>
+            <div class="inputModal">
+                <div class="inputModal_p">
+                    <p data-end="*">Ваше Имя</p>
+                    <input type="text" required placeholder="Сергей">
+                </div>
+                <div class="inputModal_p">
+                    <p data-end="*">Ваш телефон</p>
+                    <input type="tel" pattern="[0-9]" required>
+                </div>
+            </div>
+            <div class="messageAreaModul">
+                <p data-end="*">Текст сообщения</p>
+                <textarea name="msg" id="msg" rows="5"></textarea>
+            </div>
+            <div class="subsMsg">
+                <input type="checkbox" name="agreeSub" id="agreeSub">
+                <label for="agreeSub">Ставя отметку, я подтверждаю согласие на обработку моих персональных
+                    данных</label>
+            </div>
+            <button>Отправить запрос</button>
+        </div>
+        <a href="#x" class="overlay" id="win1"></a>
+        <div class="popup">
+            <p class="h">Возник вопрос к ветеринару?</p>
+            <p class="h">Воспользуйтесь формой обратной связи!</p>
+            <p class="h2">Наш специалист ответит Вам в ближайшее время.</p>
+            <a class="close" title="Закрыть" href="#close1"></a>
+            <div class="inputModal">
+                <div class="inputModal_p">
+                    <p data-end="*">Ваше Имя</p>
+                    <input type="text" required placeholder="Сергей">
+                </div>
+                <div class="inputModal_p">
+                    <p data-end="*">Ваш Email</p>
+                    <input type="email" required>
+                </div>
+            </div>
+            <div class="messageAreaModul">
+                <p data-end="*">Текст сообщения</p>
+                <textarea name="msg" id="msg1" rows="5"></textarea>
+            </div>
+            <div class="subsMsg">
+                <input type="checkbox" name="agreeSub" id="agreeSub1">
+                <label for="agreeSub">Ставя отметку, я подтверждаю согласие на обработку моих персональных
+                    данных</label>
+            </div>
+            <button>Отправить запрос</button>
+        </div>
+        <div class="logoHeader">
+            <div class="phoneHeader">
+                <a href="tel:+88001234545">8-800-123-45-45</a>
+                <a href="#win2">заказать звонок</a>
+            </div>
+            <a href="index.html"><img src="img/logotype.png" alt="logo"></a>
+        </div>
+        <div class="btnsHeader">
+            <div class="headerTop">
+                <div class="test2">
+                    <a href="#">Оплата и доставка</a>
+                    <a href="#">Как заказать?</a>
+                    <a href="#">Дисконтная программа</a>
+                    <a href="#">Студия груминга</a>
+                    <a href="#">Советы ветеринаров</a>
+                    <a href="#">Бренды</a></div>
+                <div class="test1">
+                    <a href="#win1" class="HeaderAskVet">Задать вопрос ветеринару</a>
+                </div>
+            </div>
+            <div class="headerBot">
+                <div class="HeaderCut">
+                    <div class="headerBtnCat">
+                        <span><i class="fa fa-bars" aria-hidden="true"></i> Каталог</span>
+                        <div class="GeneralMenuCatalog">
+                            <div class="CatMenu">
+                                <a href="">Вет.препараты</a>
+                                <a href="">Воротники защитные, попоны послеоперционные</a>
+                                <a href="">Животные</a>
+                                <a href="">Литература</a>
+                                <a href="">Косметика, средства по уходу</a>
+                                <a href="">Наборы</a>
+                                <a href="">Пеленки, подстилки, подгузники</a>
+                                <a href="">Переноски</a>
+                                <a href="">Лежанки</a>
+                                <a href="">Домики</a>
+                                <a href="">Посуда</a>
+                                <a href="">Средства, блокирующие запахи</a>
+                                <a href="">Щетки, расчески, фурминаторы и др. инструменты</a>
+                                <a href="">Товары для грызунов</a>
+                                <div class="GoodsForCats">
+                                    <a href="#">Товары для кошек</a>
+                                    <div class="CatMenuShowUp">
+                                        <div class="cmsu">
+                                            <p>Товары для кошек</p>
+                                            <a href="">Корма сухие</a>
+                                            <a href="">Корма влажные</a>
+                                            <a href="">Лакомтсва для кошек</a>
+                                            <a href="">Миски для кошек</a>
+                                            <a href="">Игрушки для кошек</a>
+                                            <a href="">Наполнители для туалетов</a>
+                                            <a href="">Туалеты для кошек</a>
+                                            <a href="">Совки для туалетов</a>
+                                            <a href="">Поводки</a>
+                                            <a href="">Поводок со шлейкой комплект</a>
+                                            <a href="">Поводки с ошейником</a>
+                                            <a href="">Шлейки</a>
+                                            <a href="">Уход за шерстью</a>
+                                            <a href="">Когтерезы</a>
+                                            <a href="">Когти накладные для кошек</a>
+                                            <a href="">Переноски</a>
+                                            <a href="">Домики, лежанки, когтеточки для кошек</a>
+                                            <a href="">Сухое молоко и бутылочки</a>
+                                            <a href="">Сумки-переноски для кошек</a>
+                                        </div>
+                                        <img src="img/catTest.png" alt="cat">
+                                    </div>
+                                </div>
+                                <a href="">Товары для птиц</a>
+                                <a href="">Товары для рептилий</a>
+                                <a href="">Товары для рыб</a>
+                                <a href="">Товары для собак</a>
+                                <a href="">Туалеты, лотки</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--////////////////////////////////CAT_BTN_MENU///////////////////////////////////////-->
+
+                    <!--////////////////////////////////CAT_BTN_MENU///////////////////////////////////////-->
+                    <input type="search" id="searchHeader">
+                    <a href="">Новинки</a>
+                    <a href="">Акции</a>
+                    <a href="">Скидки</a>
+                    <a href="">Распродажи</a>
+                    <a class="fa" href=""><i class="fa fa-heart-o"><span class="headerCircle">23</span></i></a>
+                    <a class="fa" href=""><i class="fa fa-comment-o"><span class="headerCircle">0</span></i></a>
+                </div>
+                <div class="headerCut2">
+                    <div class="headerSearch" onclick="myFunction()">
+                        <img src="img/magnifer.png" alt="lupa">
+                    </div>
+                    <a href="" class=""><img src="img/basket.png" alt="basket"><span
+                            class="headerCircleB">54</span>
+                        <p>Корзина</p></a>
+                    <a href="" class="keks"><img src="img/person.png" alt="">
+                        <p>Личный кабинет</p></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</header>
+<div class="bg-gray">
+    <div class="row-c">
+        <div class="breadCrumps">
+            <a href="">Главная</a>
+            <p>-</p>
+            <a href="catalog.html">Каталог</a>
+            <p>-</p>
+            <a href="">Товары для кошек</a>
+            <p>-</p>
+            <a href=""> Деревенские лакомства для кошек Нарезка из говядины нежная</a>
+        </div>
+    </div>
+</div>
+<div class="row-c">
+    <div class="mainWinFlex">
+        <a href="#" class="backToStore"><img src="img/arrowleft.png" alt="<"> Вернуться в магазин</a>
+        <div class="secondWinFlex">
+            <div class="itemWindowDescription">
+                <div class="characterItem">
+                    <img src="img/newPic.png" alt="new">
+                    <img src="img/discountPic.png" alt="discount">
+                    <img src="img/recommendPic.png" alt="recommend">
+                </div>
+                <img class="picOfItem" src="img/itemPic.png" alt="">
+            </div>
+            <div class="textItemDescr">
+                <div class="articleOfItem">Арт.: 45612
+                    <div class="rateit" data-rateit-value="4" data-rateit-ispreset="true"
+                         data-rateit-readonly="true"></div>
+                </div>
+                <div class="nameOfItem">Деревенские лакомства для кошек Нарезка из говядины нежная
+                    <div class="rateItem"><p>Рейтинг 4.6</p>
+                        <p>Понравился товар?</p>
+                        <p>Поставь звезду!</p></div>
+                </div>
+                <div class="brandItem"><a href="http://derlak.ru/" target="_blank">Бренд: Деревенские лакомства</a>
+                </div>
+                <div class="priceItem">120 P</div>
+                <div class="stockANDweight">
+                    <div class="testRight">
+                        <div class="weightItem">
+                            <p><input type="radio" name="selectGrams" id="50" checked><label for="50">50г</label></p>
+                            <p><input type="radio" name="selectGrams" id="100"><label for="100">100 г</label></p>
+                            <p><input type="radio" name="selectGrams" id="240"><label for="240">240 г</label></p>
+                            <p><input type="radio" name="selectGrams" id="1000"><label for="1000">1 кг</label></p>
+                        </div>
+                        <div class="inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в наличии</div>
+                    </div>
+                    <div class="testright2">
+                        <div class="amountItemBtn">
+                            <input type="button" value="-" onClick="change('amount',1,10,-1);"/>
+                            <input id="amount" type="text" value="1" readonly/>
+                            <input type="button" value="+" onClick="change('amount',1,10, 1);"/>
+                        </div>
+                        <a href="#" class="ItemInBasket">В корзину</a>
+                    </div>
+                </div>
+                <div class="containerPcmb">
+                    <div class="linkPcmb">
+                        <p class="priceCanBeDifferent">Цены в магазинах и выдачи заказов </p>
+                        <p class="priceCanBeDifferent">могут отличаться от цен указанных на сайте.</p>
+                    </div>
+                    <a href="#win2" class="instantOrder">Заказать в 1 клик</a>
+                </div>
+                <div class="typeItemAndShare">
+                    <p>Тип: <a href="#">Товары для кошек</a> / <a href="#">Корма влажные</a></p>
+                    <p class="shareTiAS">Поделиться: <span><img onclick="myFunction1()" src="img/xhair.png" alt="" width="13" height="13"></span></p>
+                    <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir" id="ya"></div>
+                </div>
+            </div>
+        </div>
+        <div class="frqeeshiping">
+            <div class="freeShipFlex">
+                <p><b>Бесплатная доставка</b></p>
+                <p>при заказе от 500 руб.</p>
+            </div>
+            <img src="img/fastDevilary.png" alt="" height="50">
+        </div>
+        <div class="tabs">
+            <div class="tab">
+                <input type="radio" id="tab1" name="tab-group" checked>
+                <label for="tab1" class="tab-title">Описание <span class="circle"></span></label>
+                <section class="tab-content">
+                    <div class="reviewDecriptionOfItem">
+                        <p class="IDK">Описание</p>
+                        <p class="IDK">Супер товар.</p>
+                        <p>Энергетическая ценность в 100 г продукта: 226,4 ккал</p>
+                        <p class="NoReviewSection">Здесь пока что нет отзывов.</p>
+                        <div class="btnAddReview">Добавить отзыв</div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab">
+                <input type="radio" id="tab2" name="tab-group">
+                <label for="tab2" class="tab-title">Описание Товара <span class="circle"></span></label>
+                <section class="tab-content">
+                    <div class="reviewDecriptionOfItem">
+                        <p class="IDK">Вы можете оставить отзыв на данный товар.</p>
+                        <p class="IDK">Отзыв на сайте появится после его проверки администратором.</p>
+                        <p>Энергетическая ценность в 100 г продукта: 226,4 ккал</p>
+                        <p class="NoReviewSection">Здесь пока что нет отзывов.</p>
+                        <div class="btnAddReview">Добавить отзыв</div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab">
+                <input type="radio" id="tab3" name="tab-group">
+                <label for="tab3" class="tab-title">Задать вопрос <span class="circle"></span></label>
+                <section class="tab-content">
+                    <div class="reviewDecriptionOfItem">
+                        <p class="IDK">Задайте вопрос.</p>
+                        <p class="IDK">Отзыв на сайте появится после его проверки администратором.</p>
+                        <p>Энергетическая ценность в 100 г продукта: 226,4 ккал</p>
+                        <p class="NoReviewSection">Здесь пока что нет отзывов.</p>
+                        <div class="btnAddReview">Добавить отзыв</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="bannerBottom"><img src="img/banner.png" alt=""></div>
+        <div class="recommendForYouPet">
+            <div class="RTitle">Рекомендуем для Вашего питомца <img src="img/rewardIcon.png" alt=""></div>
+            <div class="Ritem owl-carousel">
+                <div class="recommendItem">
+                    <img src="img/itemSmall.png" alt="ItemPic">
+                    <p style="font-size: 30px;">120 P</p>
+                    <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div>
+                    <div class="rWeight_Item">
+                        <p><input type="radio" name="selectGrams" id="51" checked><label for="51">50г</label></p>
+                        <p><input type="radio" name="selectGrams" id="101"><label for="101">100 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="241"><label for="241">240 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="1001"><label for="1001">1 кг</label></p>
+                    </div>
+                    <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в наличии</div>
+                    <p class="recommendItemlabel">Деревенские лакомства</p>
+                </div>
+                <div class="recommendItem">
+                    <div class="rcmdItemImg">
+                        <img src="img/itemSmall.png" alt="ItemPic">
+                        <img src="img/hotItem.png" alt="">
+                    </div>
+                    <p style="font-size: 30px;">120 P</p>
+                    <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div>
+                    <div class="rWeight_Item">
+                        <p><input type="radio" name="selectGrams" id="52" checked><label for="52">50г</label></p>
+                        <p><input type="radio" name="selectGrams" id="102"><label for="102">100 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="242"><label for="242">240 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="1002"><label for="1002">1 кг</label></p>
+                    </div>
+                    <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в наличии</div>
+                    <p class="recommendItemlabel">Деревенские лакомства</p>
+                </div>
+                <div class="recommendItem">
+                    <div class="rcmdItemImg">
+                        <img src="img/itemSmall.png" alt="ItemPic">
+                        <img src="img/hotItem.png" alt="">
+                    </div>
+                    <p style="font-size: 30px;">120 P</p>
+                    <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div>
+                    <div class="rWeight_Item">
+                        <p><input type="radio" name="selectGrams" id="53" checked><label for="53">50г</label></p>
+                        <p><input type="radio" name="selectGrams" id="103"><label for="103">100 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="243"><label for="243">240 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="1003"><label for="1003">1 кг</label></p>
+                    </div>
+                    <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в наличии</div>
+                    <p class="recommendItemlabel">Деревенские лакомства</p>
+                </div>
+                <div class="recommendItem">
+                    <div class="rcmdItemImg">
+                        <img src="img/itemSmall.png" alt="ItemPic">
+                        <img src="img/hotItem.png" alt="">
+                    </div>
+                    <p style="font-size: 30px;">120 P</p>
+                    <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div>
+                    <div class="rWeight_Item">
+                        <p><input type="radio" name="selectGrams" id="54" checked><label for="54">50г</label></p>
+                        <p><input type="radio" name="selectGrams" id="104"><label for="104">100 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="244"><label for="244">240 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="1004"><label for="1004">1 кг</label></p>
+                    </div>
+                    <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в наличии</div>
+                    <p class="recommendItemlabel">Деревенские лакомства</p>
+                </div>
+            </div>
+        </div>
+        <div class="YouWatched">
+            <div class="RTitle">Вы смотрели</div>
+            <div class="Ritem owl-carousel">
+                <div class="recommendItem">
+                    <img src="img/itemSmall.png" alt="ItemPic">
+                    <p style="font-size: 30px;">120 P</p>
+                    <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div>
+                    <div class="rWeight_Item">
+                        <p><input type="radio" name="selectGrams" id="55" checked><label for="55">50г</label></p>
+                        <p><input type="radio" name="selectGrams" id="105"><label for="105">100 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="245"><label for="245">240 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="1005"><label for="1005">1 кг</label></p>
+                    </div>
+                    <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в наличии</div>
+                    <p class="recommendItemlabel">Деревенские лакомства</p>
+                </div>
+                <div class="recommendItem">
+                    <div class="rcmdItemImg">
+                        <img src="img/itemSmall.png" alt="ItemPic">
+                        <img src="img/hotItem.png" alt="">
+                    </div>
+                    <p style="font-size: 30px;">120 P</p>
+                    <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div>
+                    <div class="rWeight_Item">
+                        <p><input type="radio" name="selectGrams" id="56" checked><label for="56">50г</label></p>
+                        <p><input type="radio" name="selectGrams" id="106"><label for="106">100 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="246"><label for="246">240 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="1006"><label for="1006">1 кг</label></p>
+                    </div>
+                    <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в наличии</div>
+                    <p class="recommendItemlabel">Деревенские лакомства</p>
+                </div>
+                <div class="recommendItem">
+                    <div class="rcmdItemImg">
+                        <img src="img/itemSmall.png" alt="ItemPic">
+                        <img src="img/hotItem.png" alt="">
+                    </div>
+                    <p style="font-size: 30px;">120 P</p>
+                    <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div>
+                    <div class="rWeight_Item">
+                        <p><input type="radio" name="selectGrams" id="57" checked><label for="57">50г</label></p>
+                        <p><input type="radio" name="selectGrams" id="107"><label for="107">100 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="247"><label for="247">240 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="1007"><label for="1007">1 кг</label></p>
+                    </div>
+                    <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в наличии</div>
+                    <p class="recommendItemlabel">Деревенские лакомства</p>
+                </div>
+                <div class="recommendItem">
+                    <div class="rcmdItemImg">
+                        <img src="img/itemSmall.png" alt="ItemPic">
+                        <img src="img/hotItem.png" alt="">
+                    </div>
+                    <p style="font-size: 30px;">120 P</p>
+                    <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div>
+                    <div class="rWeight_Item">
+                        <p><input type="radio" name="selectGrams" id="58" checked><label for="58">50г</label></p>
+                        <p><input type="radio" name="selectGrams" id="108"><label for="108">100 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="248"><label for="248">240 г</label></p>
+                        <p><input type="radio" name="selectGrams" id="1008"><label for="1008">1 кг</label></p>
+                    </div>
+                    <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в наличии</div>
+                    <p class="recommendItemlabel">Деревенские лакомства</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footerBannerLinks">
+        <div class="flT">
+            <div><a href="">Вет.препараты</a></div>
+            <div><a href="">Литература</a></div>
+            <div><a href="">Переноски</a></div>
+            <div><a href="">Домики</a></div>
+        </div>
+        <div class="flT">
+            <div><a href="">Воротники защитные, попоны послеоперационные</a></div>
+            <div><a href="">Наборы</a></div>
+            <div><a href="">Лежанки</a></div>
+            <div><a href="">Посуда</a></div>
+        </div>
+        <div class="flT">
+            <div><a href="">Щетки,расчески,фурминаторы</a></div>
+            <div><a href="">Косметика,средства по уходу</a></div>
+            <div><a href="">Пеленки, подстилки, подгузники</a></div>
+            <div><a href="">Средства, блокирующие запахи</a></div>
+        </div>
+    </div>
+    <div class="footerLinksBot">
+        <div class="footerLogo"><a href="index.html"><img src="img/logotype.png" alt=""></a></div>
+        <div class="FooterGeneral">
+            <div class="footerLinksTop">
+                <div class="blockVert FooterAdditional">
+                    <h4>Дополнительно</h4>
+                    <a href="">Оплата и доставка</a>
+                    <a href="">Как заказать</a>
+                    <a href="">Дисконтная программа</a>
+                    <a href="">Советы ветеринаров</a>
+                    <a href="">Студия грумминга</a>
+                    <a href="">Бренды</a>
+                </div>
+                <div class="blockVert FooterAbout">
+                    <h4>О Компании</h4>
+                    <a href="">О нас</a>
+                    <a href="">Наши магазины</a>
+                    <a href="">Вакансии</a>
+                    <a href="">Контакты</a>
+                    <a href="">Поставщикам</a>
+                </div>
+                <div class="blockVert FooterAnimals">
+                    <h4>Животные</h4>
+                    <a href="">Товаря для грызунов</a>
+                    <a href="">Товаря для кошек</a>
+                    <a href="">Товаря для птиц</a>
+                    <a href="">Товаря для рептилий</a>
+                    <a href="">Товаря для рыб</a>
+                    <a href="">Товаря для собак</a>
+                    <a href="">Туалеты, лотки</a>
+                </div>
+                <div class="blockVert FooterContacts">
+                    <h4>Контакты</h4>
+                    <p>Город, Улица Пушкина 77, вход со двора</p>
+                    <p>Режим работы: с 8 до 18 без выходных</p>
+                    <a href="tel:+88001234545"><p class="footerPhone">8-800-123-45-45</p></a>
+                </div>
+            </div>
+            <div class="FooterEtc">
+                <a href="https://vk.com/id297265902" target="_blank" class="vkButton">Мы в соц.сетях <i class="fa fa-vk"
+                                                                                                        aria-hidden="true"></i></a>
+                <div class="subToNews">
+                    <p>Хотите узнавать о новых акциях, скидках и предложениях?</p>
+                    <input type="email" required>
+                    <button type="submit">Подписаться</button>
+                </div>
+            </div>
+            <div class="footerEnd"><p>Цены в магазинах и выдачи заказов могут отличаться от цен указанных на сайте.
+                Разработка - <a href="https://wmstudio.su/" target="_blank">Агенство креативных интернет-решений
+                    WMStudio</a></p></div>
+        </div>
+    </div>
+</footer>
+<script src="scripts/owl/owl.carousel.js"></script>
+<script src="scripts/jquery.rateit.js"></script>
+<script src="scripts/jquery.rateit.min.js"></script>
+<script src="scripts/js.js"></script>
+<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+</body>
+</html>

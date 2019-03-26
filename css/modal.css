@@ -1,0 +1,171 @@
+/* Базовые стили слоя, затемнения и модального окна */
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    /* фон затемнения */
+    background-color: rgba(255, 255, 255, 0.95);
+    position: fixed; /* фиксированное позиционирование */
+    cursor: default; /* тип курсора */
+}
+
+/* активируем слой затемнения */
+.overlay:target {
+    display: block;
+}
+
+/* стили модального окна */
+.popup {
+    display: flex;
+    flex-direction: column;
+    top: -100%;
+    right: 0;
+    left: 50%;
+    z-index: 20;
+    margin: 0;
+    width: 100%;
+    color: black;
+    height:100%;
+    max-height: 655px;
+    min-width: 320px;
+    max-width: 700px;
+    position: fixed;
+    padding: 40px;
+    background: #fefefe;
+    border-radius: 4px;
+    font: 14px/18px 'Tahoma', Arial, sans-serif;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.10);
+    transform: translate(-50%, -500%);
+    transition: transform 0.6s ease-out;
+}
+
+/* активируем модальный блок */
+.overlay:target+.popup {
+    transform: translate(-50%, 0);
+    top: 20%;
+}
+
+.close {
+    top: -35px;
+    right: -25px;
+    position: absolute;
+    padding: 0;
+    transition: all ease .8s;
+}
+
+.close:before {
+    content: url("assets/img/close.png");
+}
+
+.popup p {
+    text-align: center;
+}
+
+.h2{
+    margin: 25px 0 50px 0;
+}
+
+.h {
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+.inputModal{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.inputModal input {
+    padding: 0 24px;
+    color: #707070;
+    width: 265px;
+    height: 50px;
+    border: none;
+    background: #EDEDED;
+    border-radius: 5px;
+}
+.inputModal_p p{
+    text-align: left;
+    margin-bottom: 13px;
+    font-style: italic;
+}
+
+.inputModal_p p::after {
+    content: attr(data-end) ;
+    color: red ;
+}
+
+.messageAreaModul {
+    padding: 0 80px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.messageAreaModul p {
+    text-align: left;
+    margin-bottom: 13px;
+    font-style: italic;
+}
+
+.messageAreaModul p::after {
+    content: attr(data-end) ;
+    color: red ;
+}
+
+.messageAreaModul textarea {
+    resize: none;
+    border: none;
+    background: #EDEDED;
+    outline: none;
+    max-width: 460px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.subsMsg {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    max-width: 520px;
+    width: 100%;
+    margin: 0 50px;
+    white-space: pre-wrap;
+}
+
+.subsMsg input {
+    margin-right: 20px;
+    border: none;
+    background: #EDEDED;
+}
+
+.subsMsg label {
+    font-weight: normal;
+    white-space: normal;
+    font-style: italic;
+    font-size: 16px;
+    text-align: left;
+    color: #999;
+}
+
+.popup button {
+    align-self: center;
+    margin-top: 30px;
+    background: #00B0C7;
+    border: none;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
