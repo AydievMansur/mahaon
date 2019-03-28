@@ -16,17 +16,6 @@ $(document).ready(function(){
     });
 });
 
-// function myFunction() {
-//     var x = document.getElementById("searchHeader");
-//     if (x.style.display === "none") {
-//         x.style.display = "flex";
-//     } else {
-//         x.style.display = "none";
-//     }
-// };
-
-console.log ('test');
-
 function myFunction(){
     let x = document.getElementById("searchHeader");
     x.style.display = x.style.display === 'none' ? 'flex' : 'none';
@@ -40,6 +29,7 @@ function myFunction1() {
         x.style.display = "none";
     }
 };
+
 $('.wrap-owl.owl-carousel').owlCarousel({
     items:4,
     margin:10,

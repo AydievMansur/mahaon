@@ -2,8 +2,16 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="c5e228f8-63a9-4f5b-9467-77824fd34a94" name="wmstudio" url="http://wmservice.su">
-        <fileTransfer host="wmservice.su" port="22" rootFolder="/var/www/all/mahaon.wmstudio.su" accessType="SFTP">
+      <webServer id="c5e228f8-63a9-4f5b-9467-77824fd34a94" name="wmstudio" url="http://mahaon.wmservice.su">
+        <fileTransfer host="wmservice.su" port="22" rootFolder="/var/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fe0ab35c-f234-48af-bba3-c308d45e4344" name="uwu" url="http://test.wmservice.su">
+        <fileTransfer host="wmservice.su" port="22" rootFolder="/var/www" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

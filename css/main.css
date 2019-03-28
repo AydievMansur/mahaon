@@ -615,11 +615,6 @@ input:checked~.tab-title {
     color: #707070;
 }
 
-.reviewDecriptionOfItem p:nth-child(3) {
-    font-size: 14px;
-    color: #707070;
-}
-
 .NoReviewSection {
     font-size: 24px;
     color: black;
@@ -757,13 +752,14 @@ footer {
     margin: 0 auto;
 }
 
+
 .footerBannerLinks {
     width: 100%;
-    background-image: url(assets/img/bannerMy.png);
+    background-image: url(../img/bannerMy.png);
     background-repeat: no-repeat;
     border-radius: 5px;
     padding: 30px 0 30px 140px;
-    margin-bottom: 45px;
+    margin: 45px;
 }
 
 
@@ -797,6 +793,7 @@ footer {
     display: flex;
     justify-content: flex-start;
     width: 100%;
+    margin: 45px;
 }
 
 .footerLogo {
@@ -958,7 +955,7 @@ footer {
 .CatMenu {
     display: flex;
     flex-direction: column;
-    background: url("assets/img/pawOverlay.png") repeat #EDEDED;
+    background: url("/img/pawOverlay.png") repeat #EDEDED;
     width: 400px;
     white-space: normal;
     box-shadow: 20px 0 20px -15px rgba(0, 0, 0, 0.75);
