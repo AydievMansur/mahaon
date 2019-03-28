@@ -78,5 +78,4 @@
 <script src="//yastatic.net/share2/share.js"></script>
 <script src="/font/font4.js"></script>
 <script src="/scripts/js.js"></script>
-<script src="/scripts/eclipse.js"></script>
 </body>
