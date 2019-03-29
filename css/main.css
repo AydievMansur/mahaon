@@ -3,13 +3,12 @@
     margin: 0;
     list-style: none;
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 
 html {
     user-select: none;
     -moz-user-select: none;
-    min-width: 1500px;
 }
 
 header {
@@ -23,6 +22,8 @@ header {
     background: rgb(48, 23, 69);
     background: linear-gradient(90deg, rgba(48, 23, 69, 1) 0%, rgba(108, 71, 148, 1) 55%, rgba(81, 51, 113, 1) 79%, rgba(40, 22, 62, 1) 100%);
 }
+
+.burgerBtn { display: none;}
 
 input {
     outline: none;
@@ -754,7 +755,7 @@ footer {
 
 
 .footerBannerLinks {
-    width: 100%;
+    max-width: 100%;
     background-image: url(../img/bannerMy.png);
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -1145,4 +1146,14 @@ footer {
 .boxPreviewItem img {
     display: block;
     margin: auto;
+}
+
+/*//////////////////////moz/////////////////////////////////*/
+
+.owl-stage {
+    display: flex;
+}
+
+.owl-nav  {
+    display: none;
 }

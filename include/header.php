@@ -79,6 +79,11 @@
                 <button>Отправить запрос</button>
             </div>
             <div class="header--Flex">
+                <div class="burgerBtn">
+                    <a href="#">
+                        <span></span>
+                    </a>
+                </div>
                 <div class="logoHeader">
                     <div class="phoneHeader">
                         <a href="tel:+88001234545" style="text-decoration: none;">8-800-123-45-45</a>

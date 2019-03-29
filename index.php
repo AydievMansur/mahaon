@@ -15,7 +15,7 @@
 <div class="content">
     <div class="row-c">
         <div class="block--stock">
-            <div><a href=""><img src="img/1.png" alt="Item1"></a></div>
+            <div class="block--stock_img"><a href=""><img src="img/1.png" alt="Item1"></a></div>
             <div class="stock_item2">
                 <a href="">
                     <div class="stick_item2--text">
@@ -29,7 +29,7 @@
                     <div><img src="img/2.png" alt="Item2"></div>
                 </a>
             </div>
-            <div>
+            <div class="block--stock_img">
                 <a href=""><img src="img/3.png" alt="Item3"></a>
             </div>
         </div>

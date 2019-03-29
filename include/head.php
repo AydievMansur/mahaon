@@ -9,5 +9,6 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/scripts/owl/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/scripts/rateit.css">
+    <link rel="stylesheet" href="/css/responsive.css">
     <title>Махаон</title>
 </head>
