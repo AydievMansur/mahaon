@@ -1,14 +1,13 @@
-
 @media screen and (max-width: 1600px) {
     .boxLab {
-        display:none;
+        display: none;
     }
 
     .pos {
-        display :none;
+        display: none;
     }
 
-    header{
+    header {
         height: 500px;
         background: rgb(48, 23, 69);
         background: linear-gradient(90deg, rgba(48, 23, 69, 1) 0%, rgba(108, 71, 148, 1) 55%, rgba(81, 51, 113, 1) 79%, rgba(40, 22, 62, 1) 100%);
@@ -79,7 +78,7 @@
     }
 
     .burgerBtn span {
-        display:block;
+        display: block;
         width: 20px;
         height: 20px;
         position: absolute;
@@ -103,5 +102,22 @@
         display: inline-block;
         margin: 25px;
         width: 300px;
+    }
+
+    .header--Info {
+        display: none;
+    }
+
+    .block--stock {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btnsHeader {
+        display: none;
+    }
+
+    .VetsBlockSides {
+        width: 100%;
     }
 }

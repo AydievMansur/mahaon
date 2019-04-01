@@ -53,42 +53,6 @@ header {
     margin: 0 auto;
 }
 
-/*//////////////////////FOOOTERRRR///////////////////////*/
-
-footer {
-    max-width: 1620px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.flT div {
-    display: inline-block;
-    width: 295px;
-    vertical-align: top;
-}
-
-.flT a {
-    color: white;
-    text-decoration: none;
-    padding-bottom: 5px;
-    border-bottom: 1px dashed #ffffff;
-    line-height: 1.5;
-    display: inline;
-}
-
-.flT {
-    margin-bottom: 30px;
-}
-
-.flT:last-child {
-    margin-bottom: 0;
-}
-
-/*////////////////////////////////////////////*/
-
-
-
 .cmsu a {
     color: black;
     text-decoration: none;
@@ -326,6 +290,7 @@ a.allStocksLink {
     display: inline-block;
     width: 100%;
     text-align: center;
+    color: black;
 }
 
 .blockTips p:first-child {
@@ -335,6 +300,8 @@ a.allStocksLink {
 
 .boutPet {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .blockTips {
@@ -430,5 +397,17 @@ input:checked ~ label {
         position: absolute;
         display: inline-block;
         margin: 500px 0;
+    }
+
+    .logoHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footerLogo {
+        display: none;
     }
 }
