@@ -33,16 +33,20 @@
                 <div class="inputModal">
                     <div class="inputModal_p">
                         <p data-end="*">Ваше Имя</p>
-                        <input type="text" required placeholder="Сергей">
+                        <label>
+                            <input type="text" required placeholder="Сергей">
+                        </label>
                     </div>
                     <div class="inputModal_p">
                         <p data-end="*">Ваш телефон</p>
-                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <label>
+                            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </label>
                     </div>
                 </div>
                 <div class="messageAreaModul">
                     <p data-end="*">Текст сообщения</p>
-                    <textarea name="msg" id="msg" rows="5"></textarea>
+                    <label for="msg"></label><textarea name="msg" id="msg" rows="5"></textarea>
                 </div>
                 <div class="subsMsg">
                     <input type="checkbox" name="agreeSub" id="agreeSub">
@@ -60,19 +64,23 @@
                 <div class="inputModal">
                     <div class="inputModal_p">
                         <p data-end="*">Ваше Имя</p>
-                        <input type="text" required placeholder="Сергей">
+                        <label>
+                            <input type="text" required placeholder="Сергей">
+                        </label>
                     </div>
                     <div class="inputModal_p">
                         <p data-end="*">Ваш Email</p>
-                        <input type="email" required>
+                        <label>
+                            <input type="email" required>
+                        </label>
                     </div>
                 </div>
                 <div class="messageAreaModul">
                     <p data-end="*">Текст сообщения</p>
-                    <textarea name="msg" id="msg1" rows="5"></textarea>
+                    <label for="msg1"></label><textarea name="msg" id="msg1" rows="5"></textarea>
                 </div>
                 <div class="subsMsg">
-                    <input type="checkbox" name="agreeSub" id="agreeSub1">
+                    <label for="agreeSub1"></label><input type="checkbox" name="agreeSub" id="agreeSub1">
                     <label for="agreeSub">Ставя отметку, я подтверждаю согласие на обработку моих персональных
                         данных</label>
                 </div>
@@ -173,12 +181,12 @@
                         </div>
                         <div class="headerCut2">
                             <div class="headerSearch" onclick="myFunction()">
-                                <img src="img/magnifer.png" alt="lupa">
+                                <img src="/img/magnifer.png" alt="lupa">
                             </div>
-                            <a href="" class=""><img src="img/basket.png" alt="basket"><span
+                            <a href="" class=""><img src="/img/basket.png" alt="basket"><span
                                         class="headerCircleB">54</span>
                                 <p>Корзина</p></a>
-                            <a href="" class="keks"><img src="img/person.png" alt="">
+                            <a href="" class="keks"><img src="/img/person.png" alt="">
                                 <p>Личный кабинет</p></a>
                         </div>
                     </div>
