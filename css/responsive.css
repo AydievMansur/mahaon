@@ -9,7 +9,6 @@
 
     header {
         height: 500px;
-        background: rgb(48, 23, 69);
         background: linear-gradient(90deg, rgba(48, 23, 69, 1) 0%, rgba(108, 71, 148, 1) 55%, rgba(81, 51, 113, 1) 79%, rgba(40, 22, 62, 1) 100%);
         background-repeat: repeat;
     }
@@ -24,12 +23,16 @@
     }
 
     .FooterEtc {
+        display: flex;
         justify-content: space-evenly;
         max-width: 80%;
     }
 
     .FooterEtc i {
         margin-left: 20px;
+    }
+    .boutPet img {
+        margin-bottom: 50px;
     }
 }
 
@@ -45,13 +48,36 @@
         margin-left: 20px;
     }
 
+    .tipsFrom_VetsBlock {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
     .block--stock {
         display: flex;
         justify-content: space-evenly;
     }
 
+    a.HeaderAskVet {
+        display: none;
+    }
+
+    .btnsHeader a {
+        margin-right: 5px;
+    }
+
     .block--stock_img img {
         width: 250px;
+    }
+
+    .allTips {
+        margin: 50px 0;
+    }
+
+    .flT {
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 20px;
     }
 }
 
