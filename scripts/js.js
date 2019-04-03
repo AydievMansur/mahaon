@@ -33,5 +33,12 @@ function myFunction1() {
 $('.wrap-owl.owl-carousel').owlCarousel({
     items:4,
     margin:10,
-    rewind:true
+    rewind:true,
+    responsive: {
+        0:{
+            items:1,
+            nav:false,
+            autoWidth: true
+        }
+    }
 });

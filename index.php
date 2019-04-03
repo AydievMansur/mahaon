@@ -63,7 +63,7 @@
             </div>
         </div>
         <div class="saleTitle">Распродажа<span><img src="img/butterfly.png" alt=""></span></div>
-        <div class="wrap-owl owl-carousel">
+        <div class="wrap-owl owl-carousel owl-responsive- breakpoint">
             <div class="item-img">
                 <div class="rcmdItemImg">
                     <img src="img/itemSmall.png" alt="ItemPic">

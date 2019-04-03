@@ -31,6 +31,7 @@
     .FooterEtc i {
         margin-left: 20px;
     }
+
     .boutPet img {
         margin-bottom: 50px;
     }
@@ -94,25 +95,16 @@
 }
 
 @media screen and (max-width: 640px) {
-
-}
-
-@media screen and (max-width: 480px) {
-
     header {
         height: 200px;
     }
-
-    .burgerBtn span {
-        display: block;
-        width: 20px;
-        height: 20px;
-        position: absolute;
-    }
-
     .reviewDecriptionOfItem {
         display: flex;
         flex-direction: column;
+    }
+
+    .boutPet img {
+        width: 50%;
     }
 
     .tipsFrom_VetsBlock {
@@ -146,4 +138,83 @@
     .VetsBlockSides {
         width: 100%;
     }
+
+    .stock_item2 {
+        margin: 10px 0;
+    }
+
+    .stick_item2--text {
+        width: 300px;
+        padding: 0 10px;
+    }
+
+    .VetsBlock-center > img:nth-child(1) {
+        width: 300px;
+    }
+
+    .stock_item2 > a:nth-child(1) > div:nth-child(2) > img:nth-child(1) {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /*header {*/
+    /*    height: 200px;*/
+    /*}*/
+
+
+    /*.reviewDecriptionOfItem {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*}*/
+
+    /*.tipsFrom_VetsBlock {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    width: 100%;*/
+    /*    justify-content: center;*/
+    /*    text-align: center;*/
+    /*}*/
+
+    /*.VetsBlock {*/
+    /*    text-align: center;*/
+    /*    display: inline-block;*/
+    /*    margin: 25px;*/
+    /*    width: 300px;*/
+    /*}*/
+
+    /*.header--Info {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.block--stock {*/
+    /*    flex-direction: column;*/
+    /*    align-items: center;*/
+    /*}*/
+
+    /*.btnsHeader {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.VetsBlockSides {*/
+    /*    width: 100%;*/
+    /*}*/
+
+    /*.stock_item2 {*/
+    /* margin: 10px 0;*/
+    /*}*/
+
+    /*.stick_item2--text {*/
+    /*    width: 300px;*/
+    /*    padding: 0 10px;*/
+    /*}*/
+
+    /*.VetsBlock-center > img:nth-child(1) {*/
+    /*    width: 300px;*/
+    /*}*/
+
+    /*.stock_item2 > a:nth-child(1) > div:nth-child(2) > img:nth-child(1) {*/
+    /*    width: 300px;*/
+    /*}*/
 }
