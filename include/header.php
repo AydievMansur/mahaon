@@ -54,18 +54,19 @@
                 <p class="h2">Наш специалист ответит Вам в ближайшее время.</p>
                 <a class="close" title="Закрыть" href="#close"></a>
                 <div class="inputModal">
-                    <div class="inputModal_p">
-                        <p data-end="*">Ваше Имя</p>
-                        <label>
-                            <input type="text" required placeholder="Сергей">
-                        </label>
-                    </div>
-                    <div class="inputModal_p">
-                        <p data-end="*">Ваш телефон</p>
-                        <label>
-                            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                        </label>
-                    </div>
+                    <form action="handler.php">
+                        <div class="inputModal_p">
+                            <p data-end="*">Ваше Имя</p>
+                            <label>
+                                <input type="text" required placeholder="Сергей">
+                            </label>
+                        </div>
+                        <div class="inputModal_p">
+                            <p data-end="*">Ваш телефон</p>
+                            <label>
+                                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            </label>
+                        </div>
                 </div>
                 <div class="messageAreaModul">
                     <p data-end="*">Текст сообщения</p>
@@ -77,37 +78,40 @@
                         данных</label>
                 </div>
                 <button>Отправить запрос</button>
+                </form>
             </div>
             <a href="#x" class="overlay" id="win1"></a>
             <div class="popup">
                 <p class="h">Возник вопрос к ветеринару?</p>
                 <p class="h">Воспользуйтесь формой обратной связи!</p>
                 <p class="h2">Наш специалист ответит Вам в ближайшее время.</p>
-                <a class="close" title="Закрыть" href="#close1"></a>
+                <a class="close" title="Закрыть" href="#close"></a>
                 <div class="inputModal">
-                    <div class="inputModal_p">
-                        <p data-end="*">Ваше Имя</p>
-                        <label>
-                            <input type="text" required placeholder="Сергей">
-                        </label>
-                    </div>
-                    <div class="inputModal_p">
-                        <p data-end="*">Ваш Email</p>
-                        <label>
-                            <input type="email" required>
-                        </label>
-                    </div>
+                    <form action="handler.php">
+                        <div class="inputModal_p">
+                            <p data-end="*">Ваше Имя</p>
+                            <label>
+                                <input type="text" required placeholder="Сергей">
+                            </label>
+                        </div>
+                        <div class="inputModal_p">
+                            <p data-end="*">Ваш телефон</p>
+                            <label>
+                                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            </label>
+                        </div>
                 </div>
                 <div class="messageAreaModul">
                     <p data-end="*">Текст сообщения</p>
-                    <label for="msg1"></label><textarea name="msg" id="msg1" rows="5"></textarea>
+                    <label for="msg"></label><textarea name="msg" id="msg" rows="5"></textarea>
                 </div>
                 <div class="subsMsg">
-                    <label for="agreeSub1"></label><input type="checkbox" name="agreeSub" id="agreeSub1">
+                    <input type="checkbox" name="agreeSub" id="agreeSub">
                     <label for="agreeSub">Ставя отметку, я подтверждаю согласие на обработку моих персональных
                         данных</label>
                 </div>
                 <button>Отправить запрос</button>
+                </form>
             </div>
             <div class="header--Flex">
                 <div class="burgerBtn">

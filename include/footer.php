@@ -58,15 +58,19 @@
                 </div>
             </div>
             <div class="FooterEtc">
-                <a href="https://vk.com/id297265902" target="_blank" class="vkButton">Мы в соц.сетях <i class="fa fa-vk" aria-hidden="true"></i></a>
+                <a href="https://vk.com/id297265902" target="_blank" class="vkButton">Мы в соц.сетях <i class="fa fa-vk"
+                                                                                                        aria-hidden="true"></i></a>
                 <div class="subToNews">
-                    <p>Хотите узнавать о новых акциях, скидках и предложениях?</p>
-                    <input type="email" required>
-                    <button type="submit">Подписаться</button>
+                    <form action="handler.php">
+                        <p>Хотите узнавать о новых акциях, скидках и предложениях?</p>
+                        <input type="email" required>
+                        <button type="submit">Подписаться</button>
+                    </form>
                 </div>
             </div>
             <div class="footerEnd"><p>Цены в магазинах и выдачи заказов могут отличаться от цен указанных на сайте.
-                    Разработка - <a href="https://wmstudio.su/" target="_blank">Агенство креативных интернет-решений WMStudio</a></p></div>
+                    Разработка - <a href="https://wmstudio.su/" target="_blank">Агенство креативных интернет-решений
+                        WMStudio</a></p></div>
         </div>
     </div>
 </footer>

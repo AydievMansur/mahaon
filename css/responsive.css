@@ -347,6 +347,11 @@
     .tab-title {
         width: 140px;
     }
+
+    .tab-title:hover {
+        width: 140px;
+    }
+
     .tipsFrom_VetsBlock {
         display: flex;
         flex-wrap: wrap;
@@ -398,6 +403,11 @@
     width: 110px;
     font-size: 12px;}
 
+    .tab-title:hover{
+        width: 110px;
+        font-size: 12px;}
+
+
     .subToNews p {
         white-space: normal;
     }
@@ -427,7 +437,7 @@
     }
 
     .stock_item2 {
-        margin: 10px 0;
+        margin: 50px 0;
     }
     .FooterGeneral {
         max-width: none;
