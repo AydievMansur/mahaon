@@ -1,6 +1,29 @@
 <body>
 <div class="wrapper-header">
     <header>
+        <div class="hamburger hamburger--spin">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+            <div class="hidden_body">
+                <a class="burger_Phone" href="tel:+88001234545" style="text-decoration: none;">8-800-123-45-45</a>
+                <div class="burger_Main">
+                    <a class="burger-catalog" href="catalog.html">Перейти в Каталог</a>
+                    <a href="">Оплата и доставка</a>
+                    <a href="">Как заказать?</a>
+                    <a href="">Дисконтная программа</a>
+                    <a href="">Студия Груминга</a>
+                    <a href="">Советы ветеринаров</a>
+                    <a href="">Бренды</a>
+                    <a href="">Новинки</a>
+                    <a href="">Акции</a>
+                    <a href="">Скидки</a>
+                    <a href="">Распродажи</a>
+                    <a href="">Корзина</a>
+                    <a href="">Личный кабинет</a>
+                </div>
+            </div>
+        </div>
         <div class="pos">
             <div class="boxLab">
                 <input type="radio" id="1" name="12">
@@ -168,9 +191,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--////////////////////////////////CAT_BTN_MENU///////////////////////////////////////-->
-
-                            <!--////////////////////////////////CAT_BTN_MENU///////////////////////////////////////-->
                             <input type="search" id="searchHeader">
                             <a href="">Новинки</a>
                             <a href="">Акции</a>

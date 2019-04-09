@@ -24,7 +24,7 @@
 
     .FooterEtc {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         max-width: 80%;
     }
 
@@ -35,18 +35,154 @@
     .boutPet img {
         margin-bottom: 50px;
     }
+    
+    /*.btnsHeader {*/
+    /*    position: relative;*/
+    /*}*/
+
+    /*.HeaderCut {*/
+    /*    position: absolute;*/
+    /*    bottom: -30px;*/
+    /*    width: 100%;*/
+    /*    display: flex;*/
+    /*    justify-content: space-evenly;*/
+    /*}*/
+}
+
+@media screen and (max-width: 1400px) {
+    .header--Flex {
+        flex-flow: column;
+    }
+
+    .logoHeader,
+    .btnsHeader { margin: 0;}
+    .headerBot {
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+        top: 200px;
+        padding: 0 10px;
+    }
 }
 
 
+
 @media screen and (max-width: 1200px) {
+    .hamburger--spin.is-active .hamburger-inner::after{
+        background-color: #ffffff;
+    }
+    .hamburger--spin.is-active .hamburger-inner::before{
+        background-color: #ffffff;
+    }
+    .hamburger--spin.is-active .hamburger-inner{
+        background-color: #ffffff;
+    }
+    .hamburger {
+        display: block !important;
+        position: absolute;
+    }
+
+    .stock_item2 img {
+        width: 300px;
+    }
+
+    .stick_item2--text {
+        width: 350px;
+    }
+
+    .hamburger-box {
+        z-index: 10;
+    }
+
+    .burger-catalog {
+        border: 1px solid white;
+        border-radius:10px;
+        padding: 10px 5px;
+    }
+
+    .hidden_body {
+        display: none;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: #6b4693;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+    }
+
+    .hidden_body.active {
+        display: flex;
+    }
+
+    .burger_Phone {
+        position: absolute;
+        top: 10px;
+    }
+
+    .burger_Main {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .burger_Main a {
+        margin: 10px 0;
+    }
+
+    .hamburger-inner,
+    .hamburger-inner::after,
+    .hamburger-inner::before{
+        background: white;
+    }
+
+    .hamburger-inner .is-active,
+    .hamburger-inner .is-active::after,
+    .hamburger-inner .is-active::before{
+        background: white;
+    }
+
+    .hamburger.is-active:hover {
+        opacity: 1 !important;
+        transition: 1s;
+    }
+
+    .logoHeader {
+        margin: 20px 0;
+        align-items: center;
+        width: 100%;
+    }
+
     .footerBannerLinks {
         display: none;
-        padding: 0 20px;
-        margin: 40px 0 0;
+    }
+
+    a.HeaderAskVet {
+        display: none;
+    }
+
+    .footerLinksBot {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .blockVert {
+        margin: 0 5px;
     }
 
     .blockTips {
         margin-left: 20px;
+    }
+
+    .footerLogo {
+        margin-bottom: 20px;
     }
 
     .tipsFrom_VetsBlock {
@@ -56,11 +192,11 @@
 
     .block--stock {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
-    a.HeaderAskVet {
-        display: none;
+    .btnsHeader {
+        margin: 0 50px;
     }
 
     .btnsHeader a {
@@ -80,10 +216,44 @@
         align-items: center;
         margin-bottom: 20px;
     }
+
+    .FooterEtc .vkButton {
+        display: none;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .btnsHeader {
+        display: none;
+    }
+
+    .header--Info {
+        display: none;
+    }
+
+    .btnsHeader {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1024px) {
+    header {
+        height: 200px;
+    }
 
+    .btnsHeader {
+        display: none;
+    }
+
+    .header--Info {
+        display: none;
+    }
+
+    .btnsHeader {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 960px) {
@@ -91,22 +261,88 @@
 }
 
 @media screen and (max-width: 800px) {
+    .footerLinksBot {
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .footerLinksTop {
+        text-align: center;
+    }
+
+    .FooterEtc {
+        padding: 0 70px;
+    }
+    .subToNews {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .subToNews {
+        margin-top: 30px;
+    }
+
+    .footerPhone {
+        width: auto;
+        font-size:18px;
+    }
+
+    .blockVert {
+        margin-top: 40px;
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .footerLinksTop {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .tipsFrom_VetsBlock {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
 
 }
 
 @media screen and (max-width: 640px) {
-    header {
-        height: 200px;
-    }
     .reviewDecriptionOfItem {
         display: flex;
         flex-direction: column;
     }
 
-    .boutPet img {
-        width: 50%;
+    .about-img {
+        display: flex;
+        justify-content: center;
     }
 
+    .FooterEtc {
+        max-width: 100%;
+    }
+    .subToNews button {
+        margin-top: 20px;
+    }
+
+    .subToNews input {
+        width: 100%;
+    }
+
+
+    .boutPet img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .tab-title {
+        width: 140px;
+    }
     .tipsFrom_VetsBlock {
         display: flex;
         flex-wrap: wrap;
@@ -118,21 +354,13 @@
     .VetsBlock {
         text-align: center;
         display: inline-block;
-        margin: 25px;
+        margin: 25px 0;
         width: 300px;
-    }
-
-    .header--Info {
-        display: none;
     }
 
     .block--stock {
         flex-direction: column;
         align-items: center;
-    }
-
-    .btnsHeader {
-        display: none;
     }
 
     .VetsBlockSides {
@@ -158,16 +386,17 @@
 }
 
 @media screen and (max-width: 480px) {
+    .reviewDecriptionOfItem {
+        display: flex;
+        flex-direction: column;
+    }
+    .tab-title{
+    width: 110px;
+    font-size: 12px;}
 
-    /*header {*/
-    /*    height: 200px;*/
-    /*}*/
-
-
-    /*.reviewDecriptionOfItem {*/
-    /*    display: flex;*/
-    /*    flex-direction: column;*/
-    /*}*/
+    .subToNews p {
+        white-space: normal;
+    }
 
     /*.tipsFrom_VetsBlock {*/
     /*    display: flex;*/
@@ -177,44 +406,45 @@
     /*    text-align: center;*/
     /*}*/
 
-    /*.VetsBlock {*/
-    /*    text-align: center;*/
-    /*    display: inline-block;*/
-    /*    margin: 25px;*/
-    /*    width: 300px;*/
-    /*}*/
+    .VetsBlock {
+        text-align: center;
+        display: inline-block;
+        margin: 25px;
+        width: 300px;
+    }
 
-    /*.header--Info {*/
-    /*    display: none;*/
-    /*}*/
+    .block--stock {
+        flex-direction: column;
+        align-items: center;
+    }
 
-    /*.block--stock {*/
-    /*    flex-direction: column;*/
-    /*    align-items: center;*/
-    /*}*/
+    .VetsBlockSides {
+        width: 100%;
+    }
 
-    /*.btnsHeader {*/
-    /*    display: none;*/
-    /*}*/
+    .stock_item2 {
+        margin: 10px 0;
+    }
+    .FooterGeneral {
+        max-width: none;
+    }
 
-    /*.VetsBlockSides {*/
-    /*    width: 100%;*/
-    /*}*/
+    . stick_item2--text {
+        width: 300px;
+        padding: 0 10px;
+    }
 
-    /*.stock_item2 {*/
-    /* margin: 10px 0;*/
-    /*}*/
+    .VetsBlock-center > img:nth-child(1) {
+        width: 300px;
+    }
 
-    /*.stick_item2--text {*/
-    /*    width: 300px;*/
-    /*    padding: 0 10px;*/
-    /*}*/
+    .stock_item2 > a:nth-child(1) > div:nth-child(2) > img:nth-child(1) {
+        width: 300px;
+    }
 
-    /*.VetsBlock-center > img:nth-child(1) {*/
-    /*    width: 300px;*/
-    /*}*/
+    .FooterEtc {
 
-    /*.stock_item2 > a:nth-child(1) > div:nth-child(2) > img:nth-child(1) {*/
-    /*    width: 300px;*/
-    /*}*/
+        padding: 0;
+        width: 100%;
+    }
 }

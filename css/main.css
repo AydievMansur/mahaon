@@ -23,7 +23,9 @@ header {
     background: linear-gradient(90deg, rgba(48, 23, 69, 1) 0%, rgba(108, 71, 148, 1) 55%, rgba(81, 51, 113, 1) 79%, rgba(40, 22, 62, 1) 100%);
 }
 
-.burgerBtn { display: none;}
+.hamburger {
+    display: none !important;
+}
 
 input {
     outline: none;
@@ -84,7 +86,7 @@ input {
 .btnsHeader a {
     color: white;
     text-decoration: none;
-    margin-right: 4%;
+    margin-right: 10px;
 }
 
 .btnsHeader a:hover p {
@@ -119,7 +121,6 @@ input {
     border-radius: 10px;
     display: inline-block;
     padding: 10px 15px;
-    margin-right: 20px;
     text-align: center;
     width: 144px;
     position: relative;

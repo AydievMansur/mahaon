@@ -1,6 +1,6 @@
 function change(objName, min, max, step) {
-    var obj = document.getElementById(objName);
-    var tmp = +obj.value + step;
+    let obj = document.getElementById(objName);
+    let tmp = +obj.value + step;
     if (tmp<min) tmp=min;
     if (tmp>max) tmp=max;
     obj.value = tmp;
@@ -20,16 +20,14 @@ function myFunction(){
     let x = document.getElementById("searchHeader");
     x.style.display = x.style.display === 'none' ? 'flex' : 'none';
 }
-
 function myFunction1() {
-    var x = document.getElementById("ya");
+    let x = document.getElementById("ya");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
     }
 };
-
 $('.wrap-owl.owl-carousel').owlCarousel({
     items:4,
     margin:10,
@@ -42,3 +40,11 @@ $('.wrap-owl.owl-carousel').owlCarousel({
         }
     }
 });
+
+$('.hamburger').click(function () {
+    $(this).toggleClass('is-active');
+    $('.hamburger-link').toggleClass('is-active');
+    $('.hidden_body').toggleClass('active');
+});
+
+
