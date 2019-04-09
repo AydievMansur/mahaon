@@ -100,7 +100,11 @@
         padding: 10px 5px;
     }
 
-    .hidden_body {
+    body.hidden_body {
+       overflow: hidden;
+    }
+
+    .hamburgerBox {
         display: none;
         flex-flow: column;
         justify-content: center;
@@ -114,7 +118,7 @@
         transition: 0.5s;
     }
 
-    .hidden_body.active {
+    .hamburgerBox.active {
         display: flex;
     }
 

@@ -5,7 +5,7 @@
             <div class="hamburger-box">
                 <div class="hamburger-inner"></div>
             </div>
-            <div class="hidden_body">
+            <div class="hamburgerBox">
                 <a class="burger_Phone" href="tel:+88001234545" style="text-decoration: none;">8-800-123-45-45</a>
                 <div class="burger_Main">
                     <a class="burger-catalog" href="catalog.html">Перейти в Каталог</a>

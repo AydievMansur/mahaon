@@ -43,8 +43,8 @@ $('.wrap-owl.owl-carousel').owlCarousel({
 
 $('.hamburger').click(function () {
     $(this).toggleClass('is-active');
-    $('.hamburger-link').toggleClass('is-active');
-    $('.hidden_body').toggleClass('active');
+    $('.hamburgerBox').toggleClass('active');
+    $("body").toggleClass('hidden_body');
 });
 
 
