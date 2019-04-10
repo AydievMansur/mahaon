@@ -25,7 +25,11 @@
     .FooterEtc {
         display: flex;
         justify-content: space-around;
-        max-width: 80%;
+        max-width: 100%;
+    }
+
+    .subToNews button {
+        margin: 20px 0;
     }
 
     .FooterEtc i {
@@ -331,13 +335,16 @@
         max-width: 100%;
     }
     .subToNews button {
-        margin-top: 20px;
+        margin:20px 0;
     }
 
     .subToNews input {
         width: 100%;
     }
 
+    .subToNews {
+        white-space: normal;
+    }
 
     .boutPet img {
         width: 70%;
@@ -358,6 +365,7 @@
         width: 100%;
         justify-content: center;
         text-align: center;
+        max-width: 600px;
     }
 
     .VetsBlock {

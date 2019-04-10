@@ -50,7 +50,7 @@
                 <label for="tab2" class="tab-title">Скидки <span class="circle"></span></label>
                 <section class="tab-content">
                     <div class="reviewDecriptionOfItem">
-
+                        <?php include("include/items.php"); ?>
                     </div>
                 </section>
             </div>
@@ -59,7 +59,8 @@
                 <label for="tab3" class="tab-title">Рекомендуем<span class="circle"></span></label>
                 <section class="tab-content">
                     <div class="reviewDecriptionOfItem">
-                    </div>
+                        <?php include("include/items.php"); ?>
+                    </div>q
                 </section>
             </div>
         </div>
@@ -71,9 +72,7 @@
                     <img src="img/hotItem.png" alt="">
                 </div>
                 <p style="font-size: 30px;">120 P</p>
-                <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины
-                    нежная
-                </div>
+                <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
                 <div class="rWeight_Item">
                     <p><input type="radio" name="selectGrams" id="5s" checked><label
                                 for="5s">50г</label></p>
@@ -95,9 +94,7 @@
                     <img src="img/hotItem.png" alt="">
                 </div>
                 <p style="font-size: 30px;">120 P</p>
-                <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины
-                    нежная
-                </div>
+                <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
                 <div class="rWeight_Item">
                     <p><input type="radio" name="selectGrams" id="5s" checked><label
                                 for="5s">50г</label></p>
@@ -119,9 +116,7 @@
                     <img src="img/hotItem.png" alt="">
                 </div>
                 <p style="font-size: 30px;">120 P</p>
-                <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины
-                    нежная
-                </div>
+                <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
                 <div class="rWeight_Item">
                     <p><input type="radio" name="selectGrams" id="533" checked><label
                                 for="533">50г</label></p>
@@ -143,9 +138,9 @@
                     <img src="img/hotItem.png" alt="">
                 </div>
                 <p style="font-size: 30px;">120 P</p>
-                <div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины
-                    нежная
-                </div>
+                <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины
+                        нежная
+                    </div></a>
                 <div class="rWeight_Item">
                     <p><input type="radio" name="selectGrams" id="521" checked><label
                                 for="52">50г</label></p>

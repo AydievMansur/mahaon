@@ -6,11 +6,6 @@
     font-family: Arial, serif;
 }
 
-html {
-    user-select: none;
-    -moz-user-select: none;
-}
-
 header {
     display: flex;
     white-space: nowrap;
@@ -646,6 +641,7 @@ input:checked~.tab-title {
     font-size: 16px;
     max-width: 180px;
     width: 100%;
+    text-decoration: none;
 }
 
 
@@ -1120,6 +1116,7 @@ footer {
 
 .catalogGoods > .boxPreviewItem {
     margin: 40px 30px;
+    overflow: hidden;
 }
 
 .titleCatalog {
