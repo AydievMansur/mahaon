@@ -50,7 +50,7 @@
                 <label for="tab2" class="tab-title">Скидки <span class="circle"></span></label>
                 <section class="tab-content">
                     <div class="reviewDecriptionOfItem">
-                        <?php include("include/items.php"); ?>
+<!--                        --><?php //include("include/items.php"); ?>
                     </div>
                 </section>
             </div>
@@ -59,8 +59,8 @@
                 <label for="tab3" class="tab-title">Рекомендуем<span class="circle"></span></label>
                 <section class="tab-content">
                     <div class="reviewDecriptionOfItem">
-                        <?php include("include/items.php"); ?>
-                    </div>q
+<!--                        --><?php //include("include/items.php"); ?>
+                    </div>
                 </section>
             </div>
         </div>

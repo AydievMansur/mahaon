@@ -166,7 +166,8 @@ header {
 }
 
 .stock_item2 {
-    width: 460px;
+    max-width: 460px;
+    width: 100%;
 }
 
 .stick_item2--text > div:nth-child(3) > p:nth-child(2) {
