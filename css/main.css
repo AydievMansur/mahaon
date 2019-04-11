@@ -515,6 +515,7 @@ input:hover {cursor: pointer;}
 .tab,
 .tab-title {
     display: inline-flex;
+    cursor: pointer;
     /* Выстраиваем по горизонтали */
 }
 
@@ -669,7 +670,7 @@ input:checked~.tab-title {
     display: none;
 }
 
-.rWeight_Item input[name="selectGrams"]:checked+label {
+.rWeight_Item input:checked + label {
     color: #00b0c7;
 }
 
@@ -1047,6 +1048,10 @@ footer {
 
 .headerBtnCat a:active {
     border: none;
+    color: #2579bf;
+}
+
+.headerBtnCat .CatMenu a:hover {
     color: #2579bf;
 }
 

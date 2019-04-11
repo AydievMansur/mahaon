@@ -41,7 +41,7 @@
                 <label for="tab1" class="tab-title">Новинки <span class="circle"></span></label>
                 <section class="tab-content">
                     <div class="reviewDecriptionOfItem">
-                        <?php include("include/items.php"); ?>
+                        <?php include("include/RecItems.php"); ?>
                     </div>
                 </section>
             </div>
@@ -50,7 +50,7 @@
                 <label for="tab2" class="tab-title">Скидки <span class="circle"></span></label>
                 <section class="tab-content">
                     <div class="reviewDecriptionOfItem">
-<!--                        --><?php //include("include/items.php"); ?>
+<!---->
                     </div>
                 </section>
             </div>
@@ -59,7 +59,7 @@
                 <label for="tab3" class="tab-title">Рекомендуем<span class="circle"></span></label>
                 <section class="tab-content">
                     <div class="reviewDecriptionOfItem">
-<!--                        --><?php //include("include/items.php"); ?>
+<!---->
                     </div>
                 </section>
             </div>
@@ -74,13 +74,13 @@
                 <p style="font-size: 30px;">120 P</p>
                 <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
                 <div class="rWeight_Item">
-                    <p><input type="radio" name="selectGrams" id="5s" checked><label
+                    <p><input type="radio" name="selectGrams11" id="5ss" checked><label
                                 for="5s">50г</label></p>
-                    <p><input type="radio" name="selectGrams" id="10s"><label for="10s">100
+                    <p><input type="radio" name="selectGrams11" id="10ss"><label for="10ss">100
                             г</label></p>
-                    <p><input type="radio" name="selectGrams" id="24s"><label for="24s">240
+                    <p><input type="radio" name="selectGrams11" id="24ss"><label for="24ss">240
                             г</label></p>
-                    <p><input type="radio" name="selectGrams" id="100s"><label for="100s">1
+                    <p><input type="radio" name="selectGrams11" id="100ss"><label for="100ss">1
                             кг</label></p>
                 </div>
                 <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в
@@ -96,13 +96,13 @@
                 <p style="font-size: 30px;">120 P</p>
                 <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
                 <div class="rWeight_Item">
-                    <p><input type="radio" name="selectGrams" id="5s" checked><label
+                    <p><input type="radio" name="selectGrams12" id="5sa" checked><label
                                 for="5s">50г</label></p>
-                    <p><input type="radio" name="selectGrams" id="10s"><label for="10s">100
+                    <p><input type="radio" name="selectGrams12" id="10sa"><label for="10sa">100
                             г</label></p>
-                    <p><input type="radio" name="selectGrams" id="24s"><label for="24s">240
+                    <p><input type="radio" name="selectGrams12" id="24sa"><label for="24sa">240
                             г</label></p>
-                    <p><input type="radio" name="selectGrams" id="100s"><label for="100s">1
+                    <p><input type="radio" name="selectGrams12" id="100sa"><label for="100sa">1
                             кг</label></p>
                 </div>
                 <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в
@@ -118,13 +118,13 @@
                 <p style="font-size: 30px;">120 P</p>
                 <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
                 <div class="rWeight_Item">
-                    <p><input type="radio" name="selectGrams" id="533" checked><label
+                    <p><input type="radio" name="selectGrams13" id="533" checked><label
                                 for="533">50г</label></p>
-                    <p><input type="radio" name="selectGrams" id="1034"><label for="1034">100
+                    <p><input type="radio" name="selectGrams13" id="1034"><label for="1034">100
                             г</label></p>
-                    <p><input type="radio" name="selectGrams" id="2435"><label for="2435">240
+                    <p><input type="radio" name="selectGrams13" id="2435"><label for="2435">240
                             г</label></p>
-                    <p><input type="radio" name="selectGrams" id="10036"><label for="10036">1
+                    <p><input type="radio" name="selectGrams13" id="10036"><label for="10036">1
                             кг</label></p>
                 </div>
                 <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в
@@ -142,12 +142,12 @@
                         нежная
                     </div></a>
                 <div class="rWeight_Item">
-                    <p><input type="radio" name="selectGrams" id="521" checked><label
+                    <p><input type="radio" name="selectGrams14" id="521" checked><label
                                 for="52">50г</label></p>
-                    <p><input type="radio" name="selectGrams" id="1021"><label for="1021">100
+                    <p><input type="radio" name="selectGrams14" id="1021"><label for="1021">100
                             г</label></p>
-                    <p><input type="radio" name="selectGrams" id="2421"><label for="2421">240г</label></p>
-                    <p><input type="radio" name="selectGrams" id="10021"><label for="10021">1кг</label></p>
+                    <p><input type="radio" name="selectGrams14" id="2421"><label for="2421">240г</label></p>
+                    <p><input type="radio" name="selectGrams14" id="10021"><label for="10021">1кг</label></p>
                 </div>
                 <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в
                     наличии

@@ -7,13 +7,13 @@
         <p style="font-size: 30px;">120 P</p>
         <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
         <div class="rWeight_Item">
-            <p><input type="radio" name="selectGrams" id="57" checked><label
-                        for="57">50г</label></p>
-            <p><input type="radio" name="selectGrams" id="107"><label for="107">100
+            <p><input type="radio" name="selectGrams4" id="r57" checked><label
+                        for="r57">50г</label></p>
+            <p><input type="radio" name="selectGrams4" id="r107"><label for="r107">100
                     г</label></p>
-            <p><input type="radio" name="selectGrams" id="247"><label for="247">240
+            <p><input type="radio" name="selectGrams4" id="r247"><label for="r247">240
                     г</label></p>
-            <p><input type="radio" name="selectGrams" id="1007"><label for="1007">1
+            <p><input type="radio" name="selectGrams4" id="r1007"><label for="r1007">1
                     кг</label></p>
         </div>
         <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в
@@ -29,13 +29,13 @@
         <p style="font-size: 30px;">120 P</p>
         <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
         <div class="rWeight_Item">
-            <p><input type="radio" name="selectGrams1" id="58" checked><label
-                        for="58">50г</label></p>
-            <p><input type="radio" name="selectGrams1" id="108"><label for="108">100
+            <p><input type="radio" name="selectGrams5" id="r58" checked><label
+                        for="r58">50г</label></p>
+            <p><input type="radio" name="selectGrams5" id="r108"><label for="r108">100
                     г</label></p>
-            <p><input type="radio" name="selectGrams1" id="248"><label for="248">240
+            <p><input type="radio" name="selectGrams5" id="r248"><label for="r248">240
                     г</label></p>
-            <p><input type="radio" name="selectGrams1" id="1008"><label for="1008">1
+            <p><input type="radio" name="selectGrams5" id="r1008"><label for="r1008">1
                     кг</label></p>
         </div>
         <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в
@@ -51,13 +51,14 @@
         <p style="font-size: 30px;">120 P</p>
         <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
         <div class="rWeight_Item">
-            <p><input type="radio" name="selectGrams2" id="53" checked><label
-                        for="53">50г</label></p>
-            <p><input type="radio" name="selectGrams2" id="103" checked><label for="103">100
+            <p><input type="radio" name="selectGrams6" id="r53" checked>
+                <label
+                        for="r53">50г</label></p>
+            <p><input type="radio" name="selectGrams6" id="r103"><label for="r103">100
                     г</label></p>
-            <p><input type="radio" name="selectGrams2" id="243" checked><label for="243">240
+            <p><input type="radio" name="selectGrams6" id="r243"><label for="r243">240
                     г</label></p>
-            <p><input type="radio" name="selectGrams2" id="1003" checked><label for="1003">1
+            <p><input type="radio" name="selectGrams6" id="r1003"><label for="r1003">1
                     кг</label></p>
         </div>
         <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в
@@ -73,13 +74,13 @@
         <p style="font-size: 30px;">120 P</p>
         <a href=""><div class="recommendItemName">Деревенские лакомства для кошек Нарезка из говядины нежная</div></a>
         <div class="rWeight_Item">
-            <p><input type="radio" name="selectGrams3" id="52" checked><label
-                        for="52">50г</label></p>
-            <p><input type="radio" name="selectGrams3" id="102"><label for="102">100
+            <p><input type="radio" name="selectGrams7" id="r52" checked><label
+                        for="r52">50г</label></p>
+            <p><input type="radio" name="selectGrams7" id="r102"><label for="r102">100
                     г</label></p>
-            <p><input type="radio" name="selectGrams3" id="242"><label for="242">240
+            <p><input type="radio" name="selectGrams7" id="r242"><label for="r242">240
                     г</label></p>
-            <p><input type="radio" name="selectGrams3" id="1002"><label for="1002">1
+            <p><input type="radio" name="selectGrams7" id="r1002"><label for="r1002">1
                     кг</label></p>
         </div>
         <div class="R inStockItem"><i class="fa fa-check" aria-hidden="true"></i> Есть в
