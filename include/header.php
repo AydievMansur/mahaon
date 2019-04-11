@@ -8,7 +8,7 @@
             <div class="hamburgerBox">
                 <a class="burger_Phone" href="tel:+88001234545" style="text-decoration: none;">8-800-123-45-45</a>
                 <div class="burger_Main">
-                    <a class="burger-catalog" href="catalog.html">Перейти в Каталог</a>
+                    <a class="burger-catalog" href="catalog.php">Перейти в Каталог</a>
                     <a href="">Оплата и доставка</a>
                     <a href="">Как заказать?</a>
                     <a href="">Дисконтная программа</a>
@@ -219,7 +219,7 @@
             <div class="header--Info">
                 <p>Товары для животных</p>
                 <p>корма, миски, шампуни,одежда</p>
-                <a href="/catalog.html" class="btn--ToCat">Перейти в каталог</a>
+                <a href="/catalog.php" class="btn--ToCat">Перейти в каталог</a>
                 <p>Бесплатная доставка при заказе от 500 Р</p>
             </div>
         </div>

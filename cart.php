@@ -1,184 +1,23 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Махаон - Главная</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/modal.css">
-    <link rel="stylesheet" href="scripts/owl/owl.carousel.min.css">
-    <script src="font/font4.js"></script>
-    <script src="scripts/jquery.js"></script>
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="scripts/rateit.css">
-    <title>Махаон</title>
+    <link rel="stylesheet" href="/css/burger.css">
 </head>
 <body>
-<header>
-    <div class="row-h">
-        <a href="#x" class="overlay" id="win2"></a>
-        <div class="popup">
-            <p class="h">Возник вопрос к ветеринару?</p>
-            <p class="h">Воспользуйтесь формой обратной связи!</p>
-            <p class="h2">Наш специалист ответит Вам в ближайшее время.</p>
-            <a class="close" title="Закрыть" href="#close"></a>
-            <div class="inputModal">
-                <div class="inputModal_p">
-                    <p data-end="*">Ваше Имя</p>
-                    <input type="text" required placeholder="Сергей">
-                </div>
-                <div class="inputModal_p">
-                    <p data-end="*">Ваш телефон</p>
-                    <input type="tel" pattern="[0-9]" required>
-                </div>
-            </div>
-            <div class="messageAreaModul">
-                <p data-end="*">Текст сообщения</p>
-                <textarea name="msg" id="msg" rows="5"></textarea>
-            </div>
-            <div class="subsMsg">
-                <input type="checkbox" name="agreeSub" id="agreeSub">
-                <label for="agreeSub">Ставя отметку, я подтверждаю согласие на обработку моих персональных
-                    данных</label>
-            </div>
-            <button>Отправить запрос</button>
-        </div>
-        <a href="#x" class="overlay" id="win1"></a>
-        <div class="popup">
-            <p class="h">Возник вопрос к ветеринару?</p>
-            <p class="h">Воспользуйтесь формой обратной связи!</p>
-            <p class="h2">Наш специалист ответит Вам в ближайшее время.</p>
-            <a class="close" title="Закрыть" href="#close1"></a>
-            <div class="inputModal">
-                <div class="inputModal_p">
-                    <p data-end="*">Ваше Имя</p>
-                    <input type="text" required placeholder="Сергей">
-                </div>
-                <div class="inputModal_p">
-                    <p data-end="*">Ваш Email</p>
-                    <input type="email" required>
-                </div>
-            </div>
-            <div class="messageAreaModul">
-                <p data-end="*">Текст сообщения</p>
-                <textarea name="msg" id="msg1" rows="5"></textarea>
-            </div>
-            <div class="subsMsg">
-                <input type="checkbox" name="agreeSub" id="agreeSub1">
-                <label for="agreeSub">Ставя отметку, я подтверждаю согласие на обработку моих персональных
-                    данных</label>
-            </div>
-            <button>Отправить запрос</button>
-        </div>
-        <div class="logoHeader">
-            <div class="phoneHeader">
-                <a href="tel:+88001234545">8-800-123-45-45</a>
-                <a href="#win2">заказать звонок</a>
-            </div>
-            <a href="index.html"><img src="img/logotype.png" alt="logo"></a>
-        </div>
-        <div class="btnsHeader">
-            <div class="headerTop">
-                <div class="test2">
-                    <a href="#">Оплата и доставка</a>
-                    <a href="#">Как заказать?</a>
-                    <a href="#">Дисконтная программа</a>
-                    <a href="#">Студия груминга</a>
-                    <a href="#">Советы ветеринаров</a>
-                    <a href="#">Бренды</a></div>
-                <div class="test1">
-                    <a href="#win1" class="HeaderAskVet">Задать вопрос ветеринару</a>
-                </div>
-            </div>
-            <div class="headerBot">
-                <div class="HeaderCut">
-                    <div class="headerBtnCat">
-                        <span><i class="fa fa-bars" aria-hidden="true"></i> Каталог</span>
-                        <div class="GeneralMenuCatalog">
-                            <div class="CatMenu">
-                                <a href="">Вет.препараты</a>
-                                <a href="">Воротники защитные, попоны послеоперционные</a>
-                                <a href="">Животные</a>
-                                <a href="">Литература</a>
-                                <a href="">Косметика, средства по уходу</a>
-                                <a href="">Наборы</a>
-                                <a href="">Пеленки, подстилки, подгузники</a>
-                                <a href="">Переноски</a>
-                                <a href="">Лежанки</a>
-                                <a href="">Домики</a>
-                                <a href="">Посуда</a>
-                                <a href="">Средства, блокирующие запахи</a>
-                                <a href="">Щетки, расчески, фурминаторы и др. инструменты</a>
-                                <a href="">Товары для грызунов</a>
-                                <div class="GoodsForCats">
-                                    <a href="#">Товары для кошек</a>
-                                    <div class="CatMenuShowUp">
-                                        <div class="cmsu">
-                                            <p>Товары для кошек</p>
-                                            <a href="">Корма сухие</a>
-                                            <a href="">Корма влажные</a>
-                                            <a href="">Лакомтсва для кошек</a>
-                                            <a href="">Миски для кошек</a>
-                                            <a href="">Игрушки для кошек</a>
-                                            <a href="">Наполнители для туалетов</a>
-                                            <a href="">Туалеты для кошек</a>
-                                            <a href="">Совки для туалетов</a>
-                                            <a href="">Поводки</a>
-                                            <a href="">Поводок со шлейкой комплект</a>
-                                            <a href="">Поводки с ошейником</a>
-                                            <a href="">Шлейки</a>
-                                            <a href="">Уход за шерстью</a>
-                                            <a href="">Когтерезы</a>
-                                            <a href="">Когти накладные для кошек</a>
-                                            <a href="">Переноски</a>
-                                            <a href="">Домики, лежанки, когтеточки для кошек</a>
-                                            <a href="">Сухое молоко и бутылочки</a>
-                                            <a href="">Сумки-переноски для кошек</a>
-                                        </div>
-                                        <img src="img/catTest.png" alt="cat">
-                                    </div>
-                                </div>
-                                <a href="">Товары для птиц</a>
-                                <a href="">Товары для рептилий</a>
-                                <a href="">Товары для рыб</a>
-                                <a href="">Товары для собак</a>
-                                <a href="">Туалеты, лотки</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--////////////////////////////////CAT_BTN_MENU///////////////////////////////////////-->
-
-                    <!--////////////////////////////////CAT_BTN_MENU///////////////////////////////////////-->
-                    <input type="search" id="searchHeader">
-                    <a href="">Новинки</a>
-                    <a href="">Акции</a>
-                    <a href="">Скидки</a>
-                    <a href="">Распродажи</a>
-                    <a class="fa" href=""><i class="fa fa-heart-o"><span class="headerCircle">23</span></i></a>
-                    <a class="fa" href=""><i class="fa fa-comment-o"><span class="headerCircle">0</span></i></a>
-                </div>
-                <div class="headerCut2">
-                    <div class="headerSearch" onclick="myFunction()">
-                        <img src="img/magnifer.png" alt="lupa">
-                    </div>
-                    <a href="" class=""><img src="img/basket.png" alt="basket"><span
-                            class="headerCircleB">54</span>
-                        <p>Корзина</p></a>
-                    <a href="" class="keks"><img src="img/person.png" alt="">
-                        <p>Личный кабинет</p></a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</header>
+<?php include("include/head.php"); ?>
+<?php include("include/header.php"); ?>
 <div class="bg-gray">
     <div class="row-c">
         <div class="breadCrumps">
             <a href="">Главная</a>
             <p>-</p>
-            <a href="catalog.html">Каталог</a>
+            <a href="catalog.php">Каталог</a>
             <p>-</p>
             <a href="">Товары для кошек</a>
             <p>-</p>
@@ -427,85 +266,5 @@
         </div>
     </div>
 </div>
-<footer>
-    <div class="footerBannerLinks">
-        <div class="flT">
-            <div><a href="">Вет.препараты</a></div>
-            <div><a href="">Литература</a></div>
-            <div><a href="">Переноски</a></div>
-            <div><a href="">Домики</a></div>
-        </div>
-        <div class="flT">
-            <div><a href="">Воротники защитные, попоны послеоперационные</a></div>
-            <div><a href="">Наборы</a></div>
-            <div><a href="">Лежанки</a></div>
-            <div><a href="">Посуда</a></div>
-        </div>
-        <div class="flT">
-            <div><a href="">Щетки,расчески,фурминаторы</a></div>
-            <div><a href="">Косметика,средства по уходу</a></div>
-            <div><a href="">Пеленки, подстилки, подгузники</a></div>
-            <div><a href="">Средства, блокирующие запахи</a></div>
-        </div>
-    </div>
-    <div class="footerLinksBot">
-        <div class="footerLogo"><a href="index.html"><img src="img/logotype.png" alt=""></a></div>
-        <div class="FooterGeneral">
-            <div class="footerLinksTop">
-                <div class="blockVert FooterAdditional">
-                    <h4>Дополнительно</h4>
-                    <a href="">Оплата и доставка</a>
-                    <a href="">Как заказать</a>
-                    <a href="">Дисконтная программа</a>
-                    <a href="">Советы ветеринаров</a>
-                    <a href="">Студия грумминга</a>
-                    <a href="">Бренды</a>
-                </div>
-                <div class="blockVert FooterAbout">
-                    <h4>О Компании</h4>
-                    <a href="">О нас</a>
-                    <a href="">Наши магазины</a>
-                    <a href="">Вакансии</a>
-                    <a href="">Контакты</a>
-                    <a href="">Поставщикам</a>
-                </div>
-                <div class="blockVert FooterAnimals">
-                    <h4>Животные</h4>
-                    <a href="">Товаря для грызунов</a>
-                    <a href="">Товаря для кошек</a>
-                    <a href="">Товаря для птиц</a>
-                    <a href="">Товаря для рептилий</a>
-                    <a href="">Товаря для рыб</a>
-                    <a href="">Товаря для собак</a>
-                    <a href="">Туалеты, лотки</a>
-                </div>
-                <div class="blockVert FooterContacts">
-                    <h4>Контакты</h4>
-                    <p>Город, Улица Пушкина 77, вход со двора</p>
-                    <p>Режим работы: с 8 до 18 без выходных</p>
-                    <a href="tel:+88001234545"><p class="footerPhone">8-800-123-45-45</p></a>
-                </div>
-            </div>
-            <div class="FooterEtc">
-                <a href="https://vk.com/id297265902" target="_blank" class="vkButton">Мы в соц.сетях <i class="fa fa-vk"
-                                                                                                        aria-hidden="true"></i></a>
-                <div class="subToNews">
-                    <p>Хотите узнавать о новых акциях, скидках и предложениях?</p>
-                    <input type="email" required>
-                    <button type="submit">Подписаться</button>
-                </div>
-            </div>
-            <div class="footerEnd"><p>Цены в магазинах и выдачи заказов могут отличаться от цен указанных на сайте.
-                Разработка - <a href="https://wmstudio.su/" target="_blank">Агенство креативных интернет-решений
-                    WMStudio</a></p></div>
-        </div>
-    </div>
-</footer>
-<script src="scripts/owl/owl.carousel.js"></script>
-<script src="scripts/jquery.rateit.js"></script>
-<script src="scripts/jquery.rateit.min.js"></script>
-<script src="scripts/js.js"></script>
-<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-<script src="//yastatic.net/share2/share.js"></script>
-</body>
+<?php include("include/footer.php"); ?>
 </html>
