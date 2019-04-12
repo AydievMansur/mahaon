@@ -247,6 +247,10 @@ input:hover {cursor: pointer;}
     color: #00B0C7;
 }
 
+.breadCrumps a:active {
+    color: #00B0C7;
+}
+
 .backToStore {
     text-decoration: none;
     font-family: "Open Sans", serif;

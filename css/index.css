@@ -14,6 +14,17 @@ header {
     z-index: 3;
 }
 
+.header-G {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background: rgb(48, 23, 69);
+    background: linear-gradient(90deg, rgba(48, 23, 69, 1) 0%, rgba(108, 71, 148, 1) 55%, rgba(81, 51, 113, 1) 79%, rgba(40, 22, 62, 1) 100%);
+    width: 100%;
+    height: 200px;
+    z-index: 3;
+}
+
 .headerBtnCat i {
     margin-right: 5px;
 }

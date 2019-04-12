@@ -1,6 +1,6 @@
 <body>
 <div class="wrapper-header">
-    <header>
+    <header class="header-G">
         <div class="hamburger hamburger--spin">
             <div class="hamburger-box">
                 <div class="hamburger-inner"></div>
@@ -25,28 +25,6 @@
             </div>
         </div>
         <div class="row-h">
-            <div class="pos">
-                <div class="boxLab">
-                    <input type="radio" id="1" name="slider-Header">
-                    <img src="/img/mainBG.png" alt="">
-                    <label class="lab1 labelIndex" for="1"></label>
-                </div>
-                <div class="boxLab">
-                    <input type="radio" checked id="2" name="slider-Header">
-                    <img src="/img/mainBG2.png" alt="">
-                    <label class="lab2 labelIndex" for="2"></label>
-                </div>
-                <div class="boxLab">
-                    <input type="radio" id="3" name="slider-Header">
-                    <img src="/img/mainBG3.png" alt="">
-                    <label class="lab3 labelIndex" for="3"></label>
-                </div>
-                <div class="boxLab">
-                    <input type="radio" id="4" name="slider-Header">
-                    <img src="/img/mainBG4.png" alt="">
-                    <label class="lab4 labelIndex" for="4"></label>
-                </div>
-            </div>
             <a href="#x" class="overlay" id="win2"></a>
             <div class="popup">
                 <p class="h">Возник вопрос к ветеринару?</p>
@@ -215,12 +193,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="header--Info">
-                <p>Товары для животных</p>
-                <p>корма, миски, шампуни,одежда</p>
-                <a href="catalog.php" class="btn--ToCat">Перейти в каталог</a>
-                <p>Бесплатная доставка при заказе от 500 Р</p>
             </div>
         </div>
     </header>
