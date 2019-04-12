@@ -286,9 +286,14 @@ a.allStocksLink {
     margin: 25px;
 }
 
-.VetsBlock p {
+.VetsBlock a.VetsBlock_link_title{
     color: #00b0c7;
-    margin-bottom: 20px;
+}
+
+.spaceArea {
+    display: block;
+    content: "";
+    height:20px;
 }
 
 .VetsBlock a {

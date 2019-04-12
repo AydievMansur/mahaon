@@ -251,6 +251,9 @@
     .btnsHeader {
         display: none;
     }
+    .tipsFrom_VetsBlock {
+        flex-flow: column;
+    }
 }
 
 @media screen and (max-width: 960px) {
