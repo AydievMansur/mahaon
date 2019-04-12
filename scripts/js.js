@@ -16,6 +16,7 @@ $(document).ready(function(){
     });
 });
 
+
 function myFunction(){
     let x = document.getElementById("searchHeader");
     x.style.display = x.style.display === 'none' ? 'flex' : 'none';
@@ -36,8 +37,14 @@ $('.wrap-owl.owl-carousel').owlCarousel({
         0:{
             items:1,
             nav:false,
-            autoWidth: true
-        }
+            autoWidth: true,
+        },
+        640:{
+            items:1,
+            nav:false,
+            autoWidth:true,
+            autoplay:true,
+        },
     }
 });
 
@@ -48,3 +55,6 @@ $('.hamburger').click(function () {
 });
 
 
+$(document).ready(function() {
+    $(".number-phone-header").mask("+7(999)999-99-99");//маска
+});

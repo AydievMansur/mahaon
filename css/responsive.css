@@ -9,8 +9,7 @@
 
     header {
         height: 500px;
-        background: linear-gradient(90deg, rgba(48, 23, 69, 1) 0%, rgba(108, 71, 148, 1) 55%, rgba(81, 51, 113, 1) 79%, rgba(40, 22, 62, 1) 100%);
-        background-repeat: repeat;
+        background: linear-gradient(90deg, rgba(48, 23, 69, 1) 0%, rgba(108, 71, 148, 1) 55%, rgba(81, 51, 113, 1) 79%, rgba(40, 22, 62, 1) 100%) repeat;
     }
 
     .header--Info {
@@ -39,18 +38,6 @@
     .boutPet img {
         margin-bottom: 50px;
     }
-    
-    /*.btnsHeader {*/
-    /*    position: relative;*/
-    /*}*/
-
-    /*.HeaderCut {*/
-    /*    position: absolute;*/
-    /*    bottom: -30px;*/
-    /*    width: 100%;*/
-    /*    display: flex;*/
-    /*    justify-content: space-evenly;*/
-    /*}*/
 }
 
 @media screen and (max-width: 1400px) {
@@ -390,6 +377,7 @@
 
     .tipsFrom_VetsBlock {
         display: flex;
+        flex-flow: column;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
@@ -446,17 +434,13 @@
         width: 110px;
         font-size: 12px;}
 
+    .tab-title:hover{
+        width: 110px;
+        font-size: 12px;}
+
     .subToNews p {
         white-space: normal;
     }
-
-    /*.tipsFrom_VetsBlock {*/
-    /*    display: flex;*/
-    /*    flex-wrap: wrap;*/
-    /*    width: 100%;*/
-    /*    justify-content: center;*/
-    /*    text-align: center;*/
-    /*}*/
 
     .VetsBlock {
         text-align: center;
@@ -495,7 +479,6 @@
     }
 
     .FooterEtc {
-
         padding: 0;
         width: 100%;
     }

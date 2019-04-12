@@ -64,7 +64,7 @@
                         <div class="inputModal_p">
                             <p data-end="*">Ваш телефон</p>
                             <label>
-                                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                                <input type="text" class="number-phone-header" required>
                             </label>
                         </div>
                 </div>
@@ -91,13 +91,13 @@
                         <div class="inputModal_p">
                             <p data-end="*">Ваше Имя</p>
                             <label>
-                                <input type="text" required placeholder="Сергей">
+                                <input type="text" maxlength="16" required placeholder="Сергей">
                             </label>
                         </div>
                         <div class="inputModal_p">
                             <p data-end="*">Ваш телефон</p>
                             <label>
-                                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                                <input type="text" class="number-phone-header" required>
                             </label>
                         </div>
                 </div>
